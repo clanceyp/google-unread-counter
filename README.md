@@ -5,14 +5,15 @@ See how many unread emails you have in Inbox/Gmail tab icon.
 
 ## Usage
 
-Install the extension and access your Google Inbox account.
-
-It reads the Gmail Atom Feed every 30 seconds to get the unread messages count.
+After installing the chrome extension open Google Inbox/Gmail in Chrome.
+The extension will try to find out how many unread emails you have in your inbox from the html, if it can't it will poll the server.
 
 ## TODO
 
 1. Add user settings
-1. Prevent polling
+  * Timers
+  * Characters 
+  * Favicon settings, shape, animation, colours etc...
 
 ## License
 
