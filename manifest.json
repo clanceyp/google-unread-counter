@@ -1,0 +1,29 @@
+{
+  "name": "Google Unread Counter",
+  "version": "0.0.3",
+  "manifest_version": 2,
+  "description": "See how many unread messages you have",
+  "author": "Patrick Clancey <clanceyp@gmail.com>",
+  "short_name": "GUC",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "https://mail.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://inbox.google.com/*",
+        "https://mail.google.com/*"
+      ],
+      "js": [
+        "lib/js/vendor/favico.js",
+        "lib/js/static.js",
+        "lib/js/inject.js"
+      ]
+    }
+  ]
+}
