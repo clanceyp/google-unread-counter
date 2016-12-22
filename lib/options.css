@@ -1,0 +1,10 @@
+label[data-char]:after {
+    content: " " attr(data-char) ;
+    color: #080;
+}
+
+.indent-item {
+    padding-left: 30px;
+    padding-bottom: 0;
+    margin-top: 0;
+}
