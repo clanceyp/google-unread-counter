@@ -10,10 +10,6 @@ The extension will try to find out how many unread emails you have in your inbox
 
 ## TODO
 
-1. Add user settings
-  * Timers
-  * Characters 
-  * Favicon settings, shape, animation, colours etc...
 
 ## License
 
