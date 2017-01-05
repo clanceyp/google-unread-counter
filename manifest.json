@@ -1,6 +1,6 @@
 {
   "name": "Google Unread Counter",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "manifest_version": 2,
   "description": "See how many unread messages you have",
   "author": "Patrick Clancey <clanceyp@gmail.com>",

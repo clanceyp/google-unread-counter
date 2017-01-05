@@ -8,3 +8,14 @@ label[data-char]:after {
     padding-bottom: 0;
     margin-top: 0;
 }
+
+input[name*='char'] {
+    width: 80px;
+}
+
+@media (min-width: 600px) {
+    html body:before {
+        background-image: none;
+        background-color: #F5F6F6;
+    }
+}
