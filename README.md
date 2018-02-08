@@ -14,3 +14,4 @@ The extension will try to find out how many unread emails you have in your inbox
 ## License
 
 MIT
+
